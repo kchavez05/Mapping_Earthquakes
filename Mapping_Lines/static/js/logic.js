@@ -15,6 +15,7 @@ let line = [
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
     color: "yellow",
+    dashArray: "4"
   }).addTo(map);
 
 // We create the tile layer that will be the background of our map.
