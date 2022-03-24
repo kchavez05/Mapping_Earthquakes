@@ -26,8 +26,7 @@ let earthquakes = new L.layerGroup();
 // We define an object that contains the overlays.
 // This overlay will be visible all the time.
 let overlays = {
-  Earthquakes: earthquakes,
-  Tectonics: tectonics
+  Earthquakes: earthquakes
 };
 
 // Create the map object with center, zoom level and default layer.
